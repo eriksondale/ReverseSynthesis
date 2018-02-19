@@ -20,4 +20,5 @@ else:
             #for prod in product:
                 #for pair in prod:
                     #print(AllChem.MolToSmiles(pair))
+            
             Draw.MolToFile(mainMol,'./' + arg[1].strip('.smi') + '.png')
